@@ -51,9 +51,9 @@ const DogsList = () => {
         <View style={listStyles.dogsListContainer}>
             {selectedBreed ? (
                 <View>
-                    <Button title="Back" onPress={handleGoBack} />
-                    <View style={listStyles.dogImageContainer}>
+                    <View >
                         <Image source={{ uri: dogImage }} style={listStyles.dogImage} />
+                        <Button title="Back" onPress={handleGoBack} />
                     </View>
                 </View>
             ) : (
@@ -86,13 +86,9 @@ const listStyles = StyleSheet.create({
         fontSize: 18,
         color: '#EAB2A0',
     },
-    dogImageContainer: {
-        alignItems: "center",
-        marginTop: 20,
-    },
     dogImage: {
-        width: 200,
-        height: 200,
+        width: 280,
+        height: 300,
         resizeMode: "contain",
     },
 });
