@@ -44,7 +44,7 @@ const SearchBar = () => {
                 />
                 <TouchableOpacity onPress={handleSearch}>
                     <View style={searchBarStyles.buttonContainer}>
-                        <Ionicons name="ios-arrow-forward" size={28} color="white" />
+                        <Ionicons name="ios-arrow-forward" size={28} color="#C5DFF8" />
                     </View>
                 </TouchableOpacity>
             </View>
@@ -63,16 +63,16 @@ const searchBarStyles = StyleSheet.create({
         marginTop: 60,
     },
     textInputContainer: {
-        backgroundColor: '#ccc',
+        backgroundColor: '#C5DFF8',
         padding: 10,
-        borderWidth: 1,
-        borderColor: "#ccc",
+        borderWidth: 2,
+        borderColor: "#4A55A2",
         borderRadius: 5,
         width: 265,
         height: 40,
     },
     buttonContainer: {
-        backgroundColor: '#EAB2A0',
+        backgroundColor: '#4A55A2',
         height: 40,
         width: 50,
         marginLeft: 10,
