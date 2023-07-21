@@ -52,5 +52,11 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 Special thanks to the developers of the Dog API for providing free access to their data and images, which made this app possible.
 
 ## Screenshots
+![Screenshot 2023-07-21 at 11 02 46](https://github.com/Eltharis-PL/dogsApp/assets/106860546/eae4d929-b008-49f0-bf8c-e60a835e343f)
+![Screenshot 2023-07-21 at 11 02 59](https://github.com/Eltharis-PL/dogsApp/assets/106860546/ee6ecd19-90f3-4730-8873-53935ac10d3b)
+
+![Screenshot 2023-07-21 at 11 03 11](https://github.com/Eltharis-PL/dogsApp/assets/106860546/4f8a20de-217e-4a6b-bc59-6aa5a61bc590)
+![Screenshot 2023-07-21 at 11 03 28](https://github.com/Eltharis-PL/dogsApp/assets/106860546/9b183171-a9e4-40f2-ae1e-0778f5801fb5)
+
 
 
