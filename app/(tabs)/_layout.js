@@ -6,14 +6,17 @@ export default function AppLayout() {
 
         <Tabs screenOptions={{
             headerStyle: {
-                backgroundColor: '#2D4356',
+                backgroundColor: '#A0BFE0',
             },
             headerTitleStyle: {
-                color: '#EAB2A0',
+                color: '#4A55A2',
                 fontWeight: 'bold',
             },
             tabBarStyle: {
-                backgroundColor: '#435B66',
+                backgroundColor: '#A0BFE0',
+            },
+            tabBarLabelStyle: {
+                color: '#4A55A2',
             },
         }}>
             <Tabs.Screen
@@ -23,7 +26,7 @@ export default function AppLayout() {
                     tabBarIcon: ({ size }) => (
                         <Ionicons
                             name="list"
-                            color={"#EAB2A0"}
+                            color={"#4A55A2"}
                             size={size}
                         />
                     ),
@@ -35,7 +38,7 @@ export default function AppLayout() {
                     tabBarIcon: ({ size }) => (
                         <Ionicons
                             name="search"
-                            color={"#EAB2A0"}
+                            color={"#4A55A2"}
                             size={size}
                         />
                     ),

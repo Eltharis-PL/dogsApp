@@ -53,7 +53,10 @@ const DogsList = () => {
                 <View>
                     <View >
                         <Image source={{ uri: dogImage }} style={listStyles.dogImage} />
-                        <Button title="Back" onPress={handleGoBack} />
+                        <Button
+                            title="Back"
+                            onPress={handleGoBack}
+                        />
                     </View>
                 </View>
             ) : (
@@ -76,7 +79,7 @@ const listStyles = StyleSheet.create({
         height: 300,
     },
     listItem: {
-        backgroundColor: '#435B66',
+        backgroundColor: '#4A55A2',
         height: 40,
         width: 280,
         justifyContent: 'center',
@@ -84,7 +87,7 @@ const listStyles = StyleSheet.create({
     },
     text: {
         fontSize: 18,
-        color: '#EAB2A0',
+        color: '#C5DFF8',
     },
     dogImage: {
         width: 280,
